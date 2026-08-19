@@ -17,7 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Arthur Paley | Commercial Pilot, Flight Instructor & Aviation Leader",
   description:
-    "Official portfolio and flight resume for Arthur Paley - Commercial Pilot ASEL, Instrument Rated, CFIS, AGI/IGI with 750+ total flight hours. Dedicated corporate, charter, and flight instruction professional.",
+    "Official portfolio and flight resume for Arthur Paley - Commercial Pilot ASEL, Instrument Rated, CFIS, AGI/IGI with 745+ total flight hours. Dedicated corporate, charter, and flight instruction professional.",
   keywords: [
     "Arthur Paley",
     "Commercial Pilot",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Arthur Paley | Commercial Pilot & Flight Instructor",
     description:
-      "Commercial Pilot ASEL, Instrument Rated, CFIS, AGI/IGI with 750+ total flight hours.",
+      "Commercial Pilot ASEL, Instrument Rated, CFIS, AGI/IGI with 745+ total flight hours.",
     url: "https://www.pafosfly.com",
     siteName: "Arthur Paley Pilot Portfolio",
     type: "website",

@@ -71,7 +71,7 @@ export const PILOT_DATA: PilotProfile = {
   name: "Arthur Paley",
   headline: "Owner & Chief Instructor at PAFOS FLY | Commercial Pilot ASEL • Instrument Rated",
   summary:
-    "Safety-driven commercial aviator and flight instructor with 750+ total flight hours. Proven background in flight operations management, standardized flight instruction, and disciplined aeronautical decision-making. Actively seeking long-term, stable opportunities in corporate flight departments, Part 135 charter operations, or specialized flight operations.",
+    "Safety-driven commercial aviator and flight instructor with 745+ total flight hours. Proven background in flight operations management, standardized flight instruction, and disciplined aeronautical decision-making. Actively seeking long-term, stable opportunities in corporate flight departments, Part 135 charter operations, or specialized flight operations.",
   location: "Philadelphia, Pennsylvania, United States",
   homeAirports: ["KPNE (Northeast Philadelphia)", "KPHL (Philadelphia Intl)", "KTTN (Trenton-Mercer)"],
   email: "arthur@pafosfly.com",

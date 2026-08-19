@@ -15,7 +15,7 @@ const PILOT_PROFILE = {
     fullName: "Arthur Paley",
     callsignOrTitle: "Commercial Pilot • Flight Instructor",
     headline: "Commercial Pilot ASEL • Instrument Rated • Chief Flight Instructor",
-    tagline: "Career-Dedicated Aviator with 750+ Total Flight Hours, Advanced Instruction Mastery & Uncompromising Operational Discipline.",
+    tagline: "Career-Dedicated Aviator with 745+ Total Flight Hours, Advanced Instruction Mastery & Uncompromising Operational Discipline.",
     location: "Philadelphia, Pennsylvania, United States",
     homeBaseAirports: ["KPNE (Northeast Philadelphia)", "KPHL (Philadelphia Intl)", "KTTN (Trenton-Mercer)"],
     email: "arthur@pafosfly.com",
