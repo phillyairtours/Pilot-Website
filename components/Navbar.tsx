@@ -23,7 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResume }) => {
 
   const navLinks = [
     { label: "Overview", href: "#overview" },
-    { label: "About", href: "#about" },
+    // { label: "About", href: "#about" }, // Temporarily hidden
     { label: "Experience", href: "#experience" },
     { label: "Skills & Hours", href: "#skills" },
     { label: "Projects", href: "#projects" },

@@ -22,8 +22,8 @@ export default function Home() {
       {/* 1. Intro Hero Section */}
       <Hero onOpenResume={() => setResumeOpen(true)} />
 
-      {/* 2. About Me Section */}
-      <About />
+      {/* 2. Aviation Philosophy / About Me Section (Temporarily hidden - preserved for future use) */}
+      {/* <About /> */}
 
       {/* 3. Work Experience Section */}
       <Experience />

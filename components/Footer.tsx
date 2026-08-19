@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
           {/* Nav Links */}
           <div className="flex flex-wrap items-center gap-6">
             <a href="#overview" className="hover:text-cyan-hud transition-colors">Overview</a>
-            <a href="#about" className="hover:text-cyan-hud transition-colors">About</a>
+            {/* <a href="#about" className="hover:text-cyan-hud transition-colors">About</a> */}
             <a href="#experience" className="hover:text-cyan-hud transition-colors">Experience</a>
             <a href="#skills" className="hover:text-cyan-hud transition-colors">Flight Hours</a>
             <a href="#projects" className="hover:text-cyan-hud transition-colors">Projects</a>
