@@ -140,6 +140,22 @@ export const Contact: React.FC = () => {
               </div>
             </a>
 
+            {/* Philadelphia Air Tours Website */}
+            <a
+              href="https://www.phillyairtours.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-5 rounded-2xl glass-panel flex items-center gap-4 transition-all duration-200 hover:border-purple-400/40 hover:-translate-y-0.5"
+            >
+              <div className="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/30 text-purple-400 flex items-center justify-center flex-shrink-0">
+                <Globe className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="text-xs font-mono text-slate-400 uppercase">Philadelphia Air Tours</div>
+                <div className="text-base font-bold text-white">www.phillyairtours.com</div>
+              </div>
+            </a>
+
             {/* Base Location Info */}
             <div className="p-4 rounded-xl bg-aerospace-900/60 border border-white/5 text-xs text-slate-400 flex items-center gap-3">
               <MapPin className="w-4 h-4 text-cyan-hud flex-shrink-0" />

@@ -158,6 +158,18 @@ export const PILOT_DATA: PilotProfile = {
 
   experiences: [
     {
+      role: "Founder",
+      company: "Philadelphia Air Tours",
+      period: "Present",
+      location: "Philadelphia, PA",
+      type: "Aviation Tours & Operations",
+      highlights: [
+        "Provider of FAA-approved airplane sightseeing tours.",
+        "Ensure safe and proficient flight operations within the highly complex Philadelphia Class Bravo airspace.",
+        "Deliver premium aerial experiences while adhering to strict safety and regulatory standards.",
+      ],
+    },
+    {
       role: "Operations Manager & Chief Instructor",
       company: "DORANS AVIATION",
       period: "August 2024 – Present",
@@ -184,6 +196,19 @@ export const PILOT_DATA: PilotProfile = {
   ],
 
   projects: [
+    {
+      title: "Philadelphia Air Tours",
+      subtitle: "FAA-Approved Airplane Sightseeing Tours",
+      category: "Aviation Tours",
+      description:
+        "Founded and operate Philadelphia Air Tours, providing FAA-approved airplane sightseeing tours. Focused on delivering premium customer experiences while ensuring safe and proficient flight operations in the busy Philadelphia Class Bravo airspace.",
+      achievements: [
+        "Provide guided sightseeing tours complying with all FAA regulations",
+        "Maintain absolute safety and proficiency within the complex Class B airspace environment",
+      ],
+      link: "https://www.phillyairtours.com",
+      linkText: "Visit Philly Air Tours",
+    },
     {
       title: "PAFOS FLY Flight Training Academy & Safety Syllabus",
       subtitle: "Standardized Flight School & Mentorship Program",
