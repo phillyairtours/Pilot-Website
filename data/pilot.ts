@@ -154,10 +154,6 @@ export const PILOT_DATA: PilotProfile = {
       name: "Complex Aircraft Endorsement",
       description: "Proficient in retractable landing gear, flaps, and controllable-pitch constant-speed propeller management.",
     },
-    {
-      name: "Modern Glass Avionics & EFB",
-      description: "Extensive flight deck experience with Garmin G1000, Garmin G5, autopilot systems, and ForeFlight EFB navigation.",
-    },
   ],
 
   experiences: [
@@ -236,7 +232,6 @@ export const PILOT_DATA: PilotProfile = {
     "Standard Operating Procedures (SOPs)",
     "Crosswind & Adverse Weather Operations",
     "Tailwheel & Conventional Gear Mastery",
-    "Garmin G1000 & Glass Avionics",
     "Fleet Operations & Airworthiness Tracking",
   ],
 
@@ -247,7 +242,7 @@ export const PILOT_DATA: PilotProfile = {
   ],
 
   fleet: [
-    { model: "Cessna 172 Skyhawk (Classic & G1000)", role: "Primary, IFR, Cross-Country Operations" },
+    { model: "Cessna 172 Skyhawk", role: "Primary, IFR, Cross-Country Operations" },
     { model: "Cessna 182 Skylane", role: "High-Performance & Cross-Country Flying" },
     { model: "Piper PA-28 Cherokee / Archer / Arrow", role: "Complex Transition & Flight Instruction" },
     { model: "Tailwheel / Conventional Gear Platforms", role: "Stick & Rudder Precision & Upset Training" },

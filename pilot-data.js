@@ -105,11 +105,6 @@ const PILOT_PROFILE = {
       name: "Tailwheel Aircraft Endorsement",
       description: "Mastery of conventional gear, rudder authority, three-point/wheel landings, and crosswind ground handling.",
       icon: "plane-tail"
-    },
-    {
-      name: "Glass Cockpit & Modern Avionics",
-      description: "Extensive experience with Garmin G1000, G5, GFC autopilot, and iPad EFB electronic flight bags (ForeFlight).",
-      icon: "display"
     }
   ],
 
