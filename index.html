@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arthur Paley | Commercial Pilot, Flight Instructor & Aviation Leader</title>
+  <meta name="description" content="Official portfolio and flight resume for Arthur Paley - Commercial Pilot ASEL, Instrument Rated, CFIS, AGI/IGI with 750+ flight hours. Dedicated corporate, charter, and flight instruction professional.">
+  
+  <!-- Favicon / Aviation Icon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Aerospace Glow Elements -->
+  <div class="ambient-glow glow-cyan"></div>
+  <div class="ambient-glow glow-amber"></div>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="nav-pilot-wings">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+          </svg>
+        </span>
+        <div class="nav-brand-callsign">
+          <span class="nav-name" id="navPilotName">Arthur Paley</span>
+          <span class="nav-status-dot" title="Active Pilot"></span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link">Overview</a></li>
+        <li><a href="#flight-hours" class="nav-link">Logbook & Hours</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#corporate-focus" class="nav-link">Corporate Readiness</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills-fleet" class="nav-link">Fleet & Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <button class="btn btn-sm btn-outline-amber" id="btnOpenResumeNav">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          Pilot CV
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Left: Pilot Identity & Value Proposition -->
+        <div class="hero-content">
+          <div class="hero-badge-strip">
+            <span class="badge-pilot badge-commercial">Commercial Pilot ASEL</span>
+            <span class="badge-pilot badge-faa">Instrument Airplane</span>
+            <span class="badge-pilot badge-hours" id="heroBadgeHours">750+ Total Hours</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="hero-title-highlight" id="heroFullName">Arthur Paley</span>
+          </h1>
+
+          <div class="hero-headline" id="heroHeadline">
+            Commercial Pilot ASEL • Instrument Rated • Chief Flight Instructor
+          </div>
+
+          <p class="hero-description" id="heroTagline">
+            Dedicated aviator with 750+ total flight hours, uncompromising operational safety, and advanced instruction leadership. Long-term commitment to corporate, Part 135 charter, and private flight operations.
+          </p>
+
+          <!-- Location & Base Airport Meta Row -->
+          <div class="hero-meta-row">
+            <div class="hero-meta-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span id="heroLocation">Philadelphia, PA</span>
+            </div>
+            <div class="hero-meta-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+              <span id="heroBases">KPNE • KPHL • KTTN</span>
+            </div>
+            <div class="hero-meta-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <span>100% Incident-Free Safety Record</span>
+            </div>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#flight-hours" class="btn btn-primary btn-lg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              View Flight Telemetry
+            </a>
+            <button class="btn btn-outline-amber btn-lg" id="btnOpenResumeHero">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Print / Save Resume
+            </button>
+            <a href="#contact" class="btn btn-outline btn-lg">
+              Contact / Inquire
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Interactive Avionics Glass Cockpit Card -->
+        <div class="hero-hud-card" id="cockpitHudCard">
+          <div class="hud-top-bar">
+            <div class="hud-callsign">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+              </svg>
+              <span>PAFOS-01 // FLIGHT DECK</span>
+            </div>
+            <span class="hud-telemetry-tag">LIVE TELEMETRY</span>
+          </div>
+
+          <!-- Artificial Horizon / Pitch-Roll Indicator -->
+          <div class="hud-artificial-horizon" id="hudHorizon">
+            <!-- Sky/Ground Gradient Plane (Tilts with mouse movement) -->
+            <div class="horizon-sky-ground" id="horizonPlane"></div>
+
+            <!-- Airspeed Tape (Left) -->
+            <div class="hud-airspeed-tape">
+              <span class="tape-label">IAS</span>
+              <span>135</span>
+              <span class="tape-active-val">120</span>
+              <span>105</span>
+              <span>KT</span>
+            </div>
+
+            <!-- Pitch Ladder -->
+            <div class="horizon-pitch-ladder">
+              <div class="pitch-line"><span class="pitch-dash"></span><span>+10</span><span class="pitch-dash"></span></div>
+              <div class="pitch-line"><span class="pitch-dash"></span><span>+05</span><span class="pitch-dash"></span></div>
+              <div class="pitch-line center-horizon"><span class="pitch-dash"></span><span>00°</span><span class="pitch-dash"></span></div>
+              <div class="pitch-line"><span class="pitch-dash"></span><span>-05</span><span class="pitch-dash"></span></div>
+              <div class="pitch-line"><span class="pitch-dash"></span><span>-10</span><span class="pitch-dash"></span></div>
+            </div>
+
+            <!-- Centered Aircraft Reticle -->
+            <div class="hud-aircraft-symbol">
+              <div class="aircraft-reticle">
+                <div class="reticle-wing-left"></div>
+                <div class="reticle-center-dot"></div>
+                <div class="reticle-wing-right"></div>
+              </div>
+            </div>
+
+            <!-- Altitude Tape (Right) -->
+            <div class="hud-altitude-tape">
+              <span class="tape-label">ALT</span>
+              <span>6500</span>
+              <span class="tape-active-val">5500</span>
+              <span>4500</span>
+              <span>FT</span>
+            </div>
+          </div>
+
+          <!-- Quick Metrics under HUD -->
+          <div class="hud-quick-metrics">
+            <div class="hud-metric-box">
+              <div class="hud-metric-label">TOTAL TIME</div>
+              <div class="hud-metric-val amber" id="hudTotalHours">750+</div>
+            </div>
+            <div class="hud-metric-box">
+              <div class="hud-metric-label">PIC HOURS</div>
+              <div class="hud-metric-val cyan" id="hudPicHours">620+</div>
+            </div>
+            <div class="hud-metric-box">
+              <div class="hud-metric-label">SAFETY RECORD</div>
+              <div class="hud-metric-val green">100%</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FLIGHT HOURS & LOGBOOK TELEMETRY DASHBOARD -->
+  <section class="section hours-section" id="flight-hours">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Flight Time Telemetry</span>
+        <h2 class="section-title">Verified Flight Experience</h2>
+        <p class="section-subtitle">
+          Up-to-date aeronautical logbook breakdown reflecting 750+ total flight hours across single-engine, complex, high-performance, and tailwheel airframes.
+        </p>
+      </div>
+
+      <!-- Hours Grid -->
+      <div class="hours-grid">
+        <!-- Total Time (Featured Large) -->
+        <div class="hour-card featured-total">
+          <div class="hour-card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="hour-number-row">
+            <span class="hour-counter" id="cntTotalTime">750</span>
+            <span class="hour-unit">HRS</span>
+          </div>
+          <div class="hour-label">Total Flight Time (TT)</div>
+          <div class="hour-subtext">Comprehensive flight hours across diverse meteorological & airspace environments</div>
+          <div class="hour-progress-track">
+            <div class="hour-progress-bar" style="width: 100%;"></div>
+          </div>
+        </div>
+
+        <!-- Pilot in Command (PIC) -->
+        <div class="hour-card">
+          <div class="hour-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="8.5" cy="7" r="4"></circle>
+              <polyline points="17 11 19 13 23 9"></polyline>
+            </svg>
+          </div>
+          <div class="hour-number-row">
+            <span class="hour-counter" id="cntPic">620</span>
+            <span class="hour-unit">HRS</span>
+          </div>
+          <div class="hour-label">Pilot in Command (PIC)</div>
+          <div class="hour-subtext">Sole manipulator of controls & final authority</div>
+          <div class="hour-progress-track">
+            <div class="hour-progress-bar" style="width: 82%;"></div>
+          </div>
+        </div>
+
+        <!-- Cross Country (XC) -->
+        <div class="hour-card">
+          <div class="hour-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+            </svg>
+          </div>
+          <div class="hour-number-row">
+            <span class="hour-counter" id="cntXc">260</span>
+            <span class="hour-unit">HRS</span>
+          </div>
+          <div class="hour-label">Cross Country (XC)</div>
+          <div class="hour-subtext">Point-to-point flights over 50nm distance</div>
+          <div class="hour-progress-track">
+            <div class="hour-progress-bar" style="width: 60%;"></div>
+          </div>
+        </div>
+
+        <!-- Dual Given (Instruction) -->
+        <div class="hour-card">
+          <div class="hour-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+            </svg>
+          </div>
+          <div class="hour-number-row">
+            <span class="hour-counter" id="cntDualGiven">290</span>
+            <span class="hour-unit">HRS</span>
+          </div>
+          <div class="hour-label">Dual Given (CFI/CFIS)</div>
+          <div class="hour-subtext">Active student training & safety mentorship</div>
+          <div class="hour-progress-track">
+            <div class="hour-progress-bar" style="width: 65%;"></div>
+          </div>
+        </div>
+
+        <!-- Instrument Flight -->
+        <div class="hour-card">
+          <div class="hour-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+            </svg>
+          </div>
+          <div class="hour-number-row">
+            <span class="hour-counter" id="cntInstrument">75</span>
+            <span class="hour-unit">HRS</span>
+          </div>
+          <div class="hour-label">Instrument (IFR)</div>
+          <div class="hour-subtext">Actual IMC & Simulated Hood Operations</div>
+          <div class="hour-progress-track">
+            <div class="hour-progress-bar" style="width: 45%;"></div>
+          </div>
+        </div>
+
+        <!-- Night & Tailwheel -->
+        <div class="hour-card">
+          <div class="hour-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </div>
+          <div class="hour-number-row">
+            <span class="hour-counter" id="cntNight">85</span>
+            <span class="hour-unit">HRS</span>
+          </div>
+          <div class="hour-label">Night Flight Operations</div>
+          <div class="hour-subtext">Night cross-country & precision night landings</div>
+          <div class="hour-progress-track">
+            <div class="hour-progress-bar" style="width: 50%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Compliance & Medical Strip -->
+      <div class="compliance-strip">
+        <div class="compliance-card">
+          <div class="compliance-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <div>
+            <div class="compliance-title">FAA Medical Status</div>
+            <div class="compliance-detail" id="medStatus">FAA First Class Medical (Current)</div>
+          </div>
+        </div>
+
+        <div class="compliance-card">
+          <div class="compliance-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div>
+            <div class="compliance-title">Safety History</div>
+            <div class="compliance-detail">Zero Violations • Zero Incidents / Accidents</div>
+          </div>
+        </div>
+
+        <div class="compliance-card">
+          <div class="compliance-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+          </div>
+          <div>
+            <div class="compliance-title">Flight Review & Currency</div>
+            <div class="compliance-detail">Current & IFR Approach Proficient</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAA CERTIFICATES & ENDORSEMENTS -->
+  <section class="section certificates-section" id="certificates">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">FAA Credentials</span>
+        <h2 class="section-title">Certificates & Ratings</h2>
+        <p class="section-subtitle">
+          Issued by the Federal Aviation Administration (FAA), maintaining active commercial privileges, flight instructor certification, and ground instructor authority.
+        </p>
+      </div>
+
+      <!-- Certificates Grid (Populated dynamically) -->
+      <div class="certificates-grid" id="certificatesContainer">
+        <!-- Will be populated from pilot-data.js -->
+      </div>
+
+      <!-- Endorsements Showcase -->
+      <div class="endorsements-wrap">
+        <div class="endorsements-header">
+          <h3 class="endorsements-title">Specialized Pilot Endorsements</h3>
+          <span class="section-tag" style="margin: 0;">FAA Endorsed</span>
+        </div>
+        <div class="endorsements-grid" id="endorsementsContainer">
+          <!-- Will be populated from pilot-data.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORPORATE / CHARTER READINESS VALUE MATRIX -->
+  <section class="section corporate-section" id="corporate-focus">
+    <div class="container">
+      <div class="corporate-banner">
+        <div class="corporate-banner-content">
+          <span class="section-tag">Mission Focus</span>
+          <h2 class="corporate-banner-title">Dedicated to Corporate & Charter Aviation</h2>
+          <p class="corporate-banner-desc">
+            Arthur is focused entirely on building a long-term, stable career in corporate flight departments, Part 135 on-demand charter, and aircraft management operations. Unlike pilots seeking temporary flight hours for airline transitions, Arthur provides operational stability, customer loyalty, and seasoned management discipline.
+          </p>
+        </div>
+      </div>
+
+      <!-- Key Differentiator Cards -->
+      <div class="differentiator-grid" id="differentiatorsContainer">
+        <!-- Populated from pilot-data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFESSIONAL EXPERIENCE & LEADERSHIP TIMELINE -->
+  <section class="section experience-section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Career History</span>
+        <h2 class="section-title">Professional Flight Experience</h2>
+        <p class="section-subtitle">
+          Demonstrated leadership across flight academy operations, standardized instruction, flight dispatch, and safety management systems.
+        </p>
+      </div>
+
+      <!-- Timeline Structure -->
+      <div class="experience-timeline" id="experienceTimeline">
+        <!-- Populated from pilot-data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FLEET PROFICIENCY & SKILLS RADAR -->
+  <section class="section skills-section" id="skills-fleet">
+    <div class="container">
+      <div class="skills-fleet-grid">
+        
+        <!-- Aircraft Flown & Fleet Experience -->
+        <div class="panel-card">
+          <h3 class="panel-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+            </svg>
+            Aircraft Familiarity & Fleet Types
+          </h3>
+          <div class="fleet-list" id="fleetListContainer">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <!-- Pilot Competencies & Trilingual Advantage -->
+        <div class="panel-card">
+          <h3 class="panel-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            Core Pilot Competencies
+          </h3>
+          <div class="skills-badge-wrap" id="competenciesContainer">
+            <!-- Populated dynamically -->
+          </div>
+
+          <!-- Trilingual Fluency -->
+          <div class="languages-row">
+            <h4 style="font-size: 1rem; color: #ffffff; margin-bottom: 8px;">Languages Spoken</h4>
+            <div class="lang-grid" id="languagesContainer">
+              <!-- Populated dynamically -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DIRECT CONTACT & INQUIRY TERMINAL -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Direct Communication</span>
+        <h2 class="section-title">Contact Arthur Paley</h2>
+        <p class="section-subtitle">
+          Inquire regarding corporate pilot positions, Part 135 contract flights, aircraft ferry missions, or advanced flight instruction.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Left: Quick Direct Contact Info -->
+        <div class="contact-info-panel">
+          <a href="mailto:arthur@pafosfly.com" class="contact-card" id="cardEmail">
+            <div class="contact-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-card-label">Direct Email</div>
+              <div class="contact-card-val" id="contactEmailVal">arthur@pafosfly.com</div>
+            </div>
+          </a>
+
+          <a href="tel:9173859680" class="contact-card" id="cardPhone">
+            <div class="contact-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-card-label">Direct Phone</div>
+              <div class="contact-card-val" id="contactPhoneVal">(917) 385-9680</div>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/arthurpaleypilot" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-card-label">LinkedIn Profile</div>
+              <div class="contact-card-val">linkedin.com/in/arthurpaleypilot</div>
+            </div>
+          </a>
+
+          <a href="https://www.pafosfly.com" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-card-label">Flight Academy</div>
+              <div class="contact-card-val">www.pafosfly.com</div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Right: Message Dispatch Terminal Form -->
+        <div class="contact-form-panel">
+          <form class="contact-form" id="flightInquiryForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="inqName">Your Name / Organization *</label>
+                <input class="form-input" type="text" id="inqName" placeholder="e.g. Flight Dept / Capt. Smith" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inqEmail">Email Address *</label>
+                <input class="form-input" type="email" id="inqEmail" placeholder="e.g. contact@domain.com" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="inqType">Inquiry Type</label>
+                <select class="form-select" id="inqType">
+                  <option value="Corporate / Charter Position">Corporate Flight Dept / Part 135 Position</option>
+                  <option value="Contract / Ferry Flight">Contract Pilot / Aircraft Ferry</option>
+                  <option value="Advanced Flight Training">Flight Instruction / PAFOS FLY Training</option>
+                  <option value="General Aviation Inquiry">General Inquiry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="inqAirport">Target Airport / Location</label>
+                <input class="form-input" type="text" id="inqAirport" placeholder="e.g. KPNE, KPHL, KTEB">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="inqMessage">Mission Details / Message *</label>
+              <textarea class="form-textarea" id="inqMessage" placeholder="Describe the flight mission, role requirements, or training objective..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-amber btn-lg" style="width: 100%;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+              Dispatch Flight Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span>Arthur Paley</span> • Commercial Pilot & Flight Instructor
+        </div>
+        <div class="footer-links">
+          <a href="#hero">Top</a>
+          <a href="#flight-hours">Logbook</a>
+          <a href="#certificates">Certificates</a>
+          <a href="#experience">Experience</a>
+          <a href="https://www.pafosfly.com" target="_blank" rel="noopener noreferrer">PAFOS FLY</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 Arthur Paley. All rights reserved. Commercial Pilot ASEL • CFIS • AGI/IGI.</div>
+        <div>Based in Philadelphia, PA (KPNE / KPHL)</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- RESUME / CV PREVIEW MODAL (PRINT-OPTIMIZED) -->
+  <div class="modal-backdrop" id="resumeModal">
+    <div class="resume-modal-dialog">
+      <div class="modal-header-bar">
+        <div class="modal-title">Arthur Paley — Professional Pilot One-Sheet</div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <button class="btn btn-sm btn-primary" id="btnPrintResume" onclick="window.print()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+            Print / Save as PDF
+          </button>
+          <button class="modal-close-btn" id="btnCloseResumeModal" aria-label="Close modal">✕</button>
+        </div>
+      </div>
+
+      <!-- Printable Resume Sheet -->
+      <div class="resume-sheet">
+        <header class="resume-header">
+          <h1 class="resume-name" id="resName">Arthur Paley</h1>
+          <div class="resume-title" id="resHeadline">Commercial Pilot ASEL • Instrument Rated • Chief Flight Instructor</div>
+          <div class="resume-contact-row">
+            <span id="resEmail">arthur@pafosfly.com</span> •
+            <span id="resPhone">(917) 385-9680</span> •
+            <span id="resLocation">Philadelphia, PA</span> •
+            <span id="resWeb">www.pafosfly.com</span> •
+            <span>linkedin.com/in/arthurpaleypilot</span>
+          </div>
+        </header>
+
+        <section class="resume-section">
+          <h2 class="resume-section-title">Flight Time Summary (750+ Total Hours)</h2>
+          <table class="resume-hours-table">
+            <thead>
+              <tr>
+                <th>Total Time (TT)</th>
+                <th>Pilot in Command (PIC)</th>
+                <th>Cross Country (XC)</th>
+                <th>Dual Given</th>
+                <th>Instrument (Actual/Sim)</th>
+                <th>Night</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="resTT" style="font-weight: 700;">750+</td>
+                <td id="resPIC">620+</td>
+                <td id="resXC">260+</td>
+                <td id="resDual">290+</td>
+                <td id="resInst">75+</td>
+                <td id="resNight">85+</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="resume-section">
+          <h2 class="resume-section-title">FAA Certificates & Endorsements</h2>
+          <ul style="padding-left: 20px; font-size: 0.9rem; margin-bottom: 8px;">
+            <li><strong>Commercial Pilot:</strong> Airplane Single Engine Land (ASEL)</li>
+            <li><strong>Instrument Rating:</strong> Airplane (IFR Approach Capable)</li>
+            <li><strong>Flight Instructor:</strong> Sport Pilot (CFIS)</li>
+            <li><strong>Ground Instructor:</strong> Advanced Ground Instructor (AGI) & Instrument Ground Instructor (IGI)</li>
+            <li><strong>Endorsements:</strong> High Performance Aircraft, Complex Aircraft, Tailwheel Aircraft</li>
+            <li><strong>Medical:</strong> FAA First Class Medical (Current) • 100% Clean Incident-Free Safety Record</li>
+          </ul>
+        </section>
+
+        <section class="resume-section">
+          <h2 class="resume-section-title">Professional Experience</h2>
+          
+          <div class="resume-job">
+            <div class="resume-job-header">
+              <span>Operations Manager & Chief Instructor</span>
+              <span>August 2024 – Present</span>
+            </div>
+            <div class="resume-job-company">DORANS AVIATION | Greater Philadelphia Area</div>
+            <ul class="resume-job-bullets">
+              <li>Manage daily flight operations, fleet scheduling, airworthiness tracking, and regulatory compliance.</li>
+              <li>Lead standardized instructor checks, pilot evaluations, and continuous safety enhancement programs.</li>
+            </ul>
+          </div>
+
+          <div class="resume-job">
+            <div class="resume-job-header">
+              <span>Founder & Chief Flight Instructor</span>
+              <span>2019 – Present</span>
+            </div>
+            <div class="resume-job-company">PAFOS FLY Flight School | Philadelphia, PA</div>
+            <ul class="resume-job-bullets">
+              <li>Direct operations for a premier flight academy emphasizing safety-driven stick-and-rudder handling.</li>
+              <li>Deliver initial, instrument, and advanced transition instruction with flawless safety standards.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <h2 class="resume-section-title">Languages & Core Competencies</h2>
+          <div style="font-size: 0.88rem; line-height: 1.6;">
+            <p><strong>Languages:</strong> English (Full Professional), Russian (Full Professional), Ukrainian (Full Professional)</p>
+            <p><strong>Competencies:</strong> Aeronautical Decision Making (ADM), Single-Pilot Resource Management (SRM), Adverse Weather & Crosswind Operations, Tailwheel Precision, Standard Operating Procedures (SOP).</p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- EASY-UPDATE QUICK HELPER TOGGLE (FOR ARTHUR) -->
+  <button class="editor-helper-toggle" id="btnEditorHelper" title="Quick Hours & Profile Editor">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 20h9"></path>
+      <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+    </svg>
+    <span>Live Update Helper</span>
+  </button>
+
+  <!-- Scripts -->
+  <script src="pilot-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
