@@ -83,16 +83,16 @@ export const PILOT_DATA: PilotProfile = {
   availability: "Available for Corporate, Part 135 Charter, Contract Operations & Advanced Flight Training",
 
   flightHours: {
-    totalTime: 750,
-    pic: 650,
-    crossCountry: 260,
-    dualGiven: 290,
-    instrument: 75,
-    night: 85,
-    tailwheel: 20,
-    complexHighPerf: 140,
+    totalTime: 745.0,
+    pic: 645.0,
+    crossCountry: 253.4,
+    dualGiven: 283.7,
+    instrument: 71.9,
+    night: 77.7,
+    tailwheel: 17.7,
+    complexHighPerf: 44.0,
     safetyRecord: "100% Incident-Free Safety Record",
-    medical: "FAA First Class Medical (Current & Valid)",
+    medical: "FAA Class 2 Medical (Valid through Sept 2026)",
   },
 
   certificates: [
@@ -115,12 +115,12 @@ export const PILOT_DATA: PilotProfile = {
       highlight: true,
     },
     {
-      title: "Certified Flight Instructor - Sport (CFIS)",
-      category: "Flight Training & Standardization",
+      title: "Flight Instructor (CFI / CFIS)",
+      category: "Airplane Single Engine Land (ASEL)",
       authority: "FAA",
       description:
-        "Primary and advanced flight instruction focusing on stick-and-rudder fundamentals, stall/spin awareness, and pilot decision-making.",
-      badge: "Flight Instructor",
+        "FAA-certified flight instructor providing primary, transition, and advanced flight instruction, stall/spin awareness, and pilot safety mentoring.",
+      badge: "FAA Flight Instructor",
       highlight: true,
     },
     {
@@ -242,10 +242,12 @@ export const PILOT_DATA: PilotProfile = {
   ],
 
   fleet: [
-    { model: "Cessna 172 Skyhawk", role: "Primary, IFR, Cross-Country Operations" },
-    { model: "Cessna 182 Skylane", role: "High-Performance & Cross-Country Flying" },
-    { model: "Piper PA-28 Cherokee / Archer / Arrow", role: "Complex Transition & Flight Instruction" },
-    { model: "Tailwheel / Conventional Gear Platforms", role: "Stick & Rudder Precision & Upset Training" },
-    { model: "Multi-Engine Trainer Platforms", role: "Multi-Engine Procedures & Asymmetric Thrust" },
+    { model: "Pipistrel Alpha Trainer (PIAT)", role: "356.5 Hrs • Primary & Advanced Instruction" },
+    { model: "Piper PA-28 Series (Archer / Cherokee / Arrow)", role: "118.7 Hrs • Complex & Commercial Transition" },
+    { model: "Cessna 172 Skyhawk", role: "91.6 Hrs • IFR & Cross-Country Operations" },
+    { model: "Cessna 150 / 150M / 150L", role: "49.9 Hrs • Foundational Flight Training" },
+    { model: "Piper Saratoga PA-32-301FT", role: "34.8 Hrs • High-Performance Operations" },
+    { model: "Tailwheel / Conventional Gear (7GCBC, C170, 7GCAA)", role: "17.7 Hrs • Stick & Rudder Precision" },
+    { model: "Beechcraft Baron BE55", role: "8.0 Hrs • Multi-Engine Operations" },
   ],
 };

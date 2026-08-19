@@ -29,20 +29,20 @@ const PILOT_PROFILE = {
     statusBadge: "Active Flight Operations",
   },
 
-  // --- Professional Flight Hours Logbook (Updated) ---
+  // --- Professional Flight Hours Logbook (ForeFlight Verified) ---
   flightHours: {
-    totalTime: 750,          // Total Flight Hours
-    pic: 650,                // Pilot in Command (PIC)
-    crossCountry: 260,       // Cross Country (XC)
-    dualGiven: 290,          // Dual Instruction Given (CFI/CFIS)
-    instrument: 75,          // Instrument Flight (Actual & Simulated)
-    multiEngine: 8,          // Multi-Engine Time
-    nightTime: 85,           // Night Flight Time
-    tailwheelTime: 20,       // Tailwheel Time
-    complexHighPerf: 140,    // Complex & High Performance Aircraft Time
+    totalTime: 745.0,        // Total Flight Hours
+    pic: 645.0,              // Pilot in Command (PIC)
+    crossCountry: 253.4,     // Cross Country (XC)
+    dualGiven: 283.7,        // Dual Instruction Given (CFI/CFIS)
+    instrument: 71.9,        // Instrument Flight (Actual & Simulated)
+    multiEngine: 9.2,        // Multi-Engine Time
+    nightTime: 77.7,         // Night Flight Time
+    tailwheelTime: 17.7,     // Tailwheel Time
+    complexHighPerf: 44.0,   // High Performance Aircraft Time
     safetyRecord: "100%",    // Zero Incidents / Zero Violations
-    lastBFRDate: "Current & Valid",
-    medicalClass: "FAA First Class Medical (Current)",
+    lastBFRDate: "May 21, 2026 (Current)",
+    medicalClass: "FAA Class 2 Medical (Valid through Sept 2026)",
   },
 
   // --- FAA Certificates & Ratings ---
