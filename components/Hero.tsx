@@ -10,6 +10,7 @@ import {
   Clock,
   ArrowUpRight,
   Activity,
+  Award,
 } from "lucide-react";
 
 interface HeroProps {
@@ -50,6 +51,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-semibold uppercase tracking-wider bg-cyan-500/10 text-cyan-hud border border-cyan-500/30">
                 <Compass className="w-3.5 h-3.5" />
                 Instrument Rated
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-semibold uppercase tracking-wider bg-sky-500/10 text-sky-300 border border-sky-500/30">
+                <Award className="w-3.5 h-3.5" />
+                CFIS / AGI / IGI
               </span>
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-semibold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
                 <Clock className="w-3.5 h-3.5" />
