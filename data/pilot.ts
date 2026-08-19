@@ -84,12 +84,12 @@ export const PILOT_DATA: PilotProfile = {
 
   flightHours: {
     totalTime: 750,
-    pic: 620,
+    pic: 650,
     crossCountry: 260,
     dualGiven: 290,
     instrument: 75,
     night: 85,
-    tailwheel: 65,
+    tailwheel: 20,
     complexHighPerf: 140,
     safetyRecord: "100% Incident-Free Safety Record",
     medical: "FAA First Class Medical (Current & Valid)",

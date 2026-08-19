@@ -32,13 +32,13 @@ const PILOT_PROFILE = {
   // --- Professional Flight Hours Logbook (Updated) ---
   flightHours: {
     totalTime: 750,          // Total Flight Hours
-    pic: 620,                // Pilot in Command (PIC)
+    pic: 650,                // Pilot in Command (PIC)
     crossCountry: 260,       // Cross Country (XC)
     dualGiven: 290,          // Dual Instruction Given (CFI/CFIS)
     instrument: 75,          // Instrument Flight (Actual & Simulated)
     multiEngine: 8,          // Multi-Engine Time
     nightTime: 85,           // Night Flight Time
-    tailwheelTime: 65,       // Tailwheel Time
+    tailwheelTime: 20,       // Tailwheel Time
     complexHighPerf: 140,    // Complex & High Performance Aircraft Time
     safetyRecord: "100%",    // Zero Incidents / Zero Violations
     lastBFRDate: "Current & Valid",
